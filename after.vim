@@ -7,6 +7,10 @@ NeoBundleDocs
 source ~/.vim/bindings.vim
 source ~/.vim/plugins-override.vim
 
+syntax enable
+set background=dark
+colorscheme solarized
+
 if filereadable(expand("~/.local-after.vim"))
   echo "~/.local-after.vim is deprecated, please move it to ~/.vimrc.after"
   source ~/.local-after.vim
