@@ -11,6 +11,8 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+au FileType gitcommit set tw=72
+
 if filereadable(expand("~/.local-after.vim"))
   echo "~/.local-after.vim is deprecated, please move it to ~/.vimrc.after"
   source ~/.local-after.vim
