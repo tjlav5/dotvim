@@ -1,6 +1,6 @@
 # find out where ruby is. can override this by providing environment or command
 # line variable
-RUBY ?= $(shell ./find-ruby.sh)
+# RUBY ?= $(shell ./find-ruby.sh)
 
 .PHONY: help delete
 default: help
@@ -35,10 +35,11 @@ ${NEOBUNDLE}:
 cleanup:
 	vim -u bundles.vim +NeoBundleClean +NeoBundleCheck +NeoBundleDocs
 
-compile-command-t:
-	test ! -d bundle/Command-T || (cd bundle/Command-T/ruby/command-t/ && $(RUBY) extconf.rb && make)
+# compile-command-t:
+# 	test ! -d bundle/Command-T || (cd bundle/Command-T/ruby/command-t/ && $(RUBY) extconf.rb && make)
 
-compile: compile-command-t
+compile:
+	make
 
 .PHONY: install reinstall
 

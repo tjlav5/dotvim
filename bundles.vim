@@ -30,7 +30,6 @@ NeoBundle 'Valloric/YouCompleteMe', {
         \ 'mac': './install.py'
     \ }
 \ } " A code-completion engine for Vim
-NeoBundle 'garbas/vim-snipmate' " Implements TextMate's snippets features
 NeoBundle 'tpope/vim-endwise' " Wiseley add *
 NeoBundle 'Raimondi/delimitMate' " Insert mode auto-completion for quotes, etc
 
@@ -56,6 +55,7 @@ NeoBundle 'jistr/vim-nerdtree-tabs' " NERDTree and tabs together in Vim, painles
 NeoBundle 'ctrlpvim/ctrlp.vim' " Fuzzy file, buffer, mru, tag, etc finder
 NeoBundle 'taglist.vim' " Source code browser
 NeoBundle 'bling/vim-airline' " Lean & mean status/tabline for Vim
+NeoBundle 'vim-airline/vim-airline-themes'
 NeoBundle 'sjl/gundo.vim' " Visualize undo tree
 NeoBundle 'altercation/vim-colors-solarized' " Precision colorscheme
 NeoBundle 'Shougo/unite.vim' " Unite and create user interfaces
@@ -95,3 +95,4 @@ filetype plugin indent on
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
 NeoBundleCheck
+NeoBundleDocs

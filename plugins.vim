@@ -12,11 +12,6 @@ let g:syntastic_check_on_wq=0
 let g:syntastic_error_symbol='✗'
 let g:syntastic_warning_symbol='⚠'
 
-
-" delimitMate
-let g:delimitMate_expand_space = 1 " Turns on/off the expansion of <Space>
-let g:delimitMate_expand_cr = 1    " Turns on/off the expansion of <CR>
-
 " nerdtree
 " Ctrl-P to Display the file browser tree
 nmap <C-P> :NERDTreeTabsToggle<CR>
@@ -162,5 +157,5 @@ map <Leader>r :call RunNearestSpec()<CR>
 
 " vim-airline
 let g:airline_powerline_fonts=1
-let g:airline_theme='light' " dark simple badwolf solarized solarized2
+let g:airline_theme='solarized' " dark simple badwolf solarized solarized2
 set noshowmode
