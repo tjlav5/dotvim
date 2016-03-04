@@ -17,7 +17,7 @@ NeoBundle 'pangloss/vim-javascript' " javascript
 NeoBundle 'leafgarland/typescript-vim' " typescript
 NeoBundle 'JSON.vim' " json
 NeoBundle 'tpope/vim-markdown' " markdown
-NeoBundle 'faith/vim-go' " go
+NeoBundle 'fatih/vim-go' " go
 NeoBundle 'ekalinin/Dockerfile.vim' " docker
 NeoBundle 'groenewege/vim-less' " less
 NeoBundle 'scrooloose/syntastic' " Syntax checking hacks for Vim
