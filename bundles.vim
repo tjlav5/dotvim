@@ -67,6 +67,7 @@ NeoBundle 'YankRing.vim' " Maintains a history of previous yanks, changes, and d
 NeoBundle 'tpope/vim-surround' " Quoting/patenthesizing made simple
 NeoBundle 'godlygeek/tabular' " Vim script for text filtering and alignment
 NeoBundle 'tpope/vim-repeat' " Enable repeating supported plugin maps with '.'
+NeoBundle 'terryma/vim-multiple-cursors' " Subime Text style multiple selections
 
 """" OTHER
 
