@@ -14,6 +14,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 """" LANGUAGE
 
 NeoBundle 'pangloss/vim-javascript' " javascript
+NeoBundle 'mxw/vim-jsx' " JSX
 NeoBundle 'leafgarland/typescript-vim' " typescript
 NeoBundle 'JSON.vim' " json
 NeoBundle 'tpope/vim-markdown' " markdown
